@@ -1,26 +1,17 @@
 {
     "manifest_version": 3,
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
+    "name": "Detect too-large images",
+    "description": "Detect images which are too large",
     "version": "1.0",
     "action": {
-      "default_icon": "hello_extensions.png",
-      "default_title": "Click to show an alert"
+      "default_icon": "favicon-16x16.png",
+      "default_title": "Detect too large images"
     },
     "background": {
       "service_worker": "background.js"
     },
-    "externally_connectable": {
-      "matches": ["http://localhost:3000/*"]
-    },
     "permissions": [
-        "tabs",
         "activeTab",
-        "scripting",
-        "tabs",
-        "webRequest"
-    ],
-    "host_permissions": [
-        "https://*/*"
+        "scripting"
     ]
 }
