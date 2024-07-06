@@ -1,3 +1,5 @@
+alert('launching');
+
 const images = document.getElementsByTagName('img');
 
 console.log('launching!')
