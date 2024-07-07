@@ -1,5 +1,7 @@
 # Detect too large images
 
+Source code for extension: https://chromewebstore.google.com/detail/detect-oversize-images/pcjakmokjbidkbcegahoieooccenkfgg
+
 If you're a good frontender, and care about users not wasting bandwidth in order to download images which are too large for the displayed size (that is, their intrisic size are overly larger than their rendered size), you can use this extension to detect the images you have to resize!
 
 Just click on the extension icon, and you'll see something like this:
